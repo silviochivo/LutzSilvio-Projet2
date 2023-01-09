@@ -6,16 +6,38 @@
     <meta charset="utf-8" >
     <title>Accueil - Booki</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav>
-
+            <img class="Logo" src="Images/logo/Booki.png" alt="logoBooki">
+            <div>
+                <a href="#">Hébergements</a>
+                <a href="#">Activités</a>
+            </div>
         </nav>
     </header>
     <main>
+        <section class="Barre-Recherche">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en plein nature</p>
+            <div class="Recherche-1">
+                <div class="Logo-Localisation">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <form method="get" action="#">
+                    <label for="recherche"></label>
+                    <input type="text" name="recherche" id="recherche" placeholder="Marseille, France" class="Champ-Saisie">
+                    <input type="submit" value="Rechercher" class="Boutton-Recherche"/>
+                </form>   
+            </div>
+        </section>
+        <section class="Filtres-Recherche">
 
+        </section>
     </main>
     <footer>
 

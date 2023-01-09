@@ -1,0 +1,90 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    border-top: solid #0065FC;
+    color: #0065FC;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+
+  nav a {
+    margin-left: 60px;
+    padding: 27px;
+    size: 16px;
+  }
+  
+  .Logo {
+    height: 18px;
+    width: auto;
+  }
+
+  main {
+    margin-top: 70px;
+  }
+
+  .Barre-Recherche h1 {
+    size: 22px;
+    line-height: 5px;
+    font-weight: 700;
+  }
+
+  p {
+    size: 16px;
+  }
+
+/*Baree de recherche*/
+
+.Recherche-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  margin-top: 30px;
+}
+
+.Logo-Localisation{
+  background-color: #F2F2F2;
+  padding: 16px 12px 15px 12px;
+  border-radius: 15px 0px 0px 15px;
+  margin-left: 0px;
+}
+  
+::placeholder {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+  }
+
+.Champ-Saisie {
+  margin-right: -10px;
+  margin-left: -28px;
+  padding: 17px 50px 15px 15px;
+  border-top: solid #F2F2F2;
+  border-bottom: solid #F2F2F2 ;
+  border-left: none;
+  border-right: none;
+}
+
+  .Boutton-Recherche {
+    background-color:#0065FC ;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    font-size: 18px;
+    padding: 14px 15px 15px 15px;
+  }
