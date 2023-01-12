@@ -33,17 +33,19 @@ nav {
     width: auto;
   }
 
+/*Pitch*/
+
   main {
     margin-top: 70px;
   }
 
-  .Barre-Recherche h1 {
-    size: 22px;
+  .Search-Bar h1 {
+    font-size: 22px;
     line-height: 5px;
     font-weight: 700;
   }
 
-  p {
+  .Search-Bar p {
     size: 16px;
   }
 
@@ -88,3 +90,207 @@ nav {
     font-size: 18px;
     padding: 14px 15px 15px 15px;
   }
+
+  .Info-Recherche {
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  /*Section Filtres*/
+
+.Filtres {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: 15px;
+}
+
+.Box-Filter {
+  border-radius: 25px;
+  border: solid #F2F2F2;
+  padding: 8px 12px 8px 8px;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.Filtre-Nom {
+  padding-top: 8px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.Box-Filter:hover {
+  background-color: #DEEBFF ;
+  color: #0065FC;
+}
+
+
+/*Card Hébergements Marseille*/
+
+.Conteneur-Box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.Box-Hebergements {
+  background-color: #F2F2F2;
+  height: 626px;
+  width: 880px;
+  border-radius: 10px;
+  flex: 2;
+  margin-right: 40px;
+}
+
+.Box-Populaires {
+  background-color: #F2F2F2;
+  width: 420px;
+  height: 625px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.Conteneur-Box h1 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+  line-height: 26px;
+}
+
+/*Card hébergements*/
+
+.Box-Hebergements h1 {
+  margin-left: 40px;
+  margin-top: 42px;
+}
+
+.Grid-Hebergements {
+  display: grid;
+  grid-template-columns: 246px 246px 246px ;
+  grid-template-rows: 199px 199px;
+  column-gap: 15px;
+  row-gap: 30px;
+  margin-left: 20px;
+  margin-top: 34px;
+}
+
+.Grid1 {
+  background-color: white;
+  border-radius: 20px;
+}
+
+.Image {
+width: 222px;
+height: 124px;
+margin-left: 0%;
+margin-right: 0%;
+border-radius: 20px 20px 0px 0px; 
+border: 5px solid #FFFFFF;
+padding: 0%;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Grid1 h2 {
+margin-left: 16px;
+margin-top: -1px;
+}
+
+.Grid1 h3 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 16px;
+  margin-top: -12px;
+}
+
+.Etoiles {
+  color: #0065FC;
+  margin-top: -12px;
+  margin-left: 25px;
+}
+
+.Etoiles i {
+  margin-left: -10px;
+}
+
+/*Card + populaires*/
+.Box-Populaires h1 {
+margin-left: 34px;
+margin-top: 42px;
+}
+
+.Title-Populaires {
+  display: flex;
+  flex-direction: row;
+}
+
+.Icon-Growth i {
+  margin-top: 55px;
+  margin-left: 95px;
+  color: #0065FC;
+}
+
+.Flex-Populaires {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin-left: 34px;
+  margin-right: 40px ;
+  margin-top: 15px;
+}
+
+.Flex1 {
+  background-color: white;
+  border-radius: 20px;
+  height: 144px;
+  width: 343px;
+  display: flex;
+  flex-direction: row;
+}
+
+.Image2 {
+  width: 144px;
+  height: 133px;
+  margin-left: 0%;
+  margin-right: 0%;
+  border-radius: 20px 0px 0px 20px;
+  border: 5px solid #FFFFFF;
+  padding: 0%;
+  }
+
+  .Texte-Flex1 {
+    margin-top: 5px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+  }
+
+  .Block-Text-Flex1 h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: -5px;
+  }
+
+  .Block-Text-Flex1 {
+    margin-top: -15px;
+  }
+  
+  .Etoiles2 {
+    color: #0065FC;
+    margin-left: 22px;
+    margin-bottom: -10px;
+    margin-top: 10px;
+  }
+  
+  .Etoiles2 i {
+    margin-left: -10px;
+  }
+
+
+  
