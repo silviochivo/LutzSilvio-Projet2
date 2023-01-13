@@ -9,7 +9,7 @@ a {
     color: black;
 }
 
-a:hover {
+.Liens-Header a:hover {
     border-top: solid #0065FC;
     color: #0065FC;
 }
@@ -160,6 +160,17 @@ nav {
   line-height: 26px;
 }
 
+.Afficher-Plus {
+margin-left: 25px;
+margin-top: 40px;
+}
+
+.Afficher-Plus h2 {
+  line-height: 21px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
 /*Card hébergements*/
 
 .Box-Hebergements h1 {
@@ -185,11 +196,12 @@ nav {
 .Image {
 width: 222px;
 height: 124px;
-margin-left: 0%;
+margin-left: -7px;
 margin-right: 0%;
 border-radius: 20px 20px 0px 0px; 
 border: 5px solid #FFFFFF;
 padding: 0%;
+object-fit: fill;
 }
 
 h2 {
@@ -213,10 +225,17 @@ margin-top: -1px;
   color: #0065FC;
   margin-top: -12px;
   margin-left: 25px;
+  display: block;
 }
 
 .Etoiles i {
   margin-left: -10px;
+}
+
+.Grid1:hover,
+.Flex1:hover,
+.Activite1:hover{
+  scale: 1.1;
 }
 
 /*Card + populaires*/
@@ -252,6 +271,7 @@ margin-top: 42px;
   width: 343px;
   display: flex;
   flex-direction: row;
+  margin-left: -5px;
 }
 
 .Image2 {
@@ -266,9 +286,10 @@ margin-top: 42px;
 
   .Texte-Flex1 {
     margin-top: 5px;
+    /*margin-bottom: 0px;*/
     display: flex;
     flex-direction:column;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .Block-Text-Flex1 h3 {
@@ -278,19 +299,84 @@ margin-top: 42px;
   }
 
   .Block-Text-Flex1 {
-    margin-top: -15px;
+    margin-top: 0px;
   }
   
   .Etoiles2 {
     color: #0065FC;
-    margin-left: 22px;
-    margin-bottom: -10px;
-    margin-top: 10px;
+    margin-left: 24px;
+    margin-bottom: 5px;
   }
   
   .Etoiles2 i {
     margin-left: -10px;
   }
 
+/*Activités à Marseille*/
 
+.Activity-Section h1 {
+  margin-left: 17px;
+}
+
+.Activity-Section {
+  margin-top: 50px;
+}
   
+.Box-Activites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Activite1 {
+height: 445px ;
+width: 302px;
+border-radius: 20px;
+box-shadow: 1px 2px 2px 2px #F2F2F2;
+}
+
+.Activite1 h2 {
+  margin-left: 25px;
+  margin-top: 12px;
+}
+.Image3 {
+  width: 302px;
+  height: 400px;
+  margin-left: 0%;
+  margin-right: 0%;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  }
+
+  /*Footer*/
+
+  .Box-Footer {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Footer1 {
+    margin-left: 60px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  .Footer1 h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+  
+  .Hebergement {
+    margin-left: 200px;
+  }
+
+  .Assistance {
+    margin-left: 200px;
+  }
+
