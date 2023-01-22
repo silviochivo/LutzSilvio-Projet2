@@ -61,7 +61,7 @@ nav {
 
 .Logo-Localisation{
   background-color: #F2F2F2;
-  padding: 15px 13px 15px 13px;
+  padding: 16px 13px 16px 13px;
   border-radius: 15px 0px 0px 15px;
   margin-left: 0px;
 }
@@ -76,7 +76,7 @@ nav {
   margin-right: -10px;
   margin-left: -28px;
   margin-top: 0px;
-  padding: 21px 50px 10px 15px;
+  padding: 17px 50px 13px 15px;
   border-top: solid #F2F2F2;
   border-bottom: solid #F2F2F2 ;
   border-left: none;
@@ -257,9 +257,10 @@ margin-top: 42px;
 
 .Icon-Growth i {
   margin-top: 55px;
-  margin-left: 95px;
   color: #0065FC;
+  margin-left: 380%;
 }
+
 
 .Flex-Populaires {
   display: flex;
@@ -326,12 +327,14 @@ margin-top: 42px;
 
 .Activity-Section {
   margin-top: 50px;
+  width: 100%;
 }
   
 .Box-Activites {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
 }
 
 .Activite1 {
@@ -361,12 +364,13 @@ box-shadow: 1px 2px 2px 2px #F2F2F2;
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    justify-content: space-between;
+    width: 98%;
   }
 
   .Footer1 {
     margin-left: 60px;
+
     margin-top: 30px;
     margin-bottom: 40px;
   }
@@ -423,7 +427,6 @@ box-shadow: 1px 2px 2px 2px #F2F2F2;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    
   }
 
   .Grid-Hebergements {
@@ -432,8 +435,8 @@ box-shadow: 1px 2px 2px 2px #F2F2F2;
     grid-template-rows: 199px 199px;
     column-gap: 31px;
     row-gap: 30px;
-    margin-left: 40px;
     margin-top: 34px;
+    justify-content: center;
   }
 
   .Box-Populaires {
@@ -443,7 +446,7 @@ box-shadow: 1px 2px 2px 2px #F2F2F2;
     border-radius: 10px;
     flex: 1;
     margin-top: 30px;
-    margin-left: -20px;
+    margin-left: 0px;
   }
 
   .Title-Populaires {
@@ -457,7 +460,7 @@ box-shadow: 1px 2px 2px 2px #F2F2F2;
   }
 
   .Icon-Growth {
-    margin-left: 480px;
+    margin-left: 45%;
   }
 
   .Flex-Populaires {
@@ -499,9 +502,15 @@ box-shadow: 1px 2px 2px 2px #F2F2F2;
     }
 
   .Conteneur-Box {
-    margin-right:72px;
-    margin-left: 100px;
+    margin-right:0px;
+    margin-left: 0px;
     }
+
+  .Afficher-Plus {
+    justify-content: left;
+    align-self: initial;
+    margin-left: -700px;
+  }
   
   .Activite1 {
     height: 267px ;
@@ -603,6 +612,10 @@ nav img {
   display: inline-block;
 }
 
+.Logo-Localisation {
+  padding: 15px 14px 15px 14px;
+}
+
 .Champ-Saisie {
   margin: 0px;
 }
@@ -611,7 +624,7 @@ nav img {
   display: inline-block
 }
 
-.Boutton-Recherche p {
+.Boutton-Recherche span {
   display: none;
 }
 .Boutton-Recherche {
@@ -693,7 +706,7 @@ nav img {
 
 
 .Title-Populaires {
-  margin-left: -20px;
+  margin-left: -60px;
   margin-top: 0px;
 }
 
@@ -713,8 +726,7 @@ nav img {
 }
 
 .Icon-Growth {
-  margin-left: 10px;
-  color: #0065FC;
+  margin-left: -30px;
 }
 
 .Etoiles2 i {
@@ -838,5 +850,91 @@ footer {
   padding-right: 0px;
   margin-left: 0px;
 }
+
+}
+
+
+
+/*Responsive All screens*/
+
+@media all and (min-width: 1400px) {
+
+  .Conteneur-Box {
+    width: 70%;
+  }
+
+  .Box-Activites {
+    width: 70%;
+  }
+
+  footer {
+    max-width: 1300px;
+  }
+ 
+  nav {
+    max-width: 1300px;
+  }
+
+}
+
+@media screen and (max-width: 1400px)  {
+
+  .Box-Activites {
+    flex-wrap: wrap;
+    width: 98%;
+  }
+
+  .Box-Hebergements {
+    height: 100%;
+  }
+
+  .Grid-Hebergements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Afficher-Plus {
+    text-align: center;
+  }
+
+  .Conteneur-Box {
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 940px) {
+
+  .Grid-Hebergements {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Conteneur-Box {
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .Box-Hebergements {
+    height: 100%;
+    width: 100%;
+  }
+
+  .Afficher-Plus {
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .Box-Populaires {
+    height: 100%;
+    width: 100%;
+  }
+
+  .Flex-Populaires {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
 }
