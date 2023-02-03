@@ -159,15 +159,14 @@ nav {
 .Box-Hebergements {
   background-color: #F2F2F2;
   height: 626px;
-  width: 880px;
   border-radius: 10px;
   flex: 2;
+  align-content: space-around;
   margin-right: 40px;
 }
 
 .Box-Populaires {
   background-color: #F2F2F2;
-  width: 420px;
   height: 625px;
   border-radius: 10px;
   flex: 1;
@@ -201,18 +200,16 @@ nav {
 }
 
 .Grid-Hebergements {
-  display: grid;
-  grid-template-columns: 246px 246px 246px ;
-  grid-template-rows: 199px 199px;
-  column-gap: 15px;
-  row-gap: 30px;
-  margin-left: 20px;
-  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Grid1 {
   background-color: white;
   border-radius: 20px;
+  width: 30%;
+  height: auto;
 }
 
 .Image {
@@ -370,20 +367,32 @@ margin-top: 42px;
 
   /*Footer*/
 
+  footer {
+   width : 95%;
+   margin-left: 25px;
+   max-width: 1300px;
+   margin-bottom: -10px;
+   background-color: #F2F2F2;
+  }
+
   .Box-Footer {
-    background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    justify-content: space-between;
-    width: 97.5%;
-    margin-left: 20px;
+    justify-content:space-between;
+    width: 100%;
+    margin-left: 0px;
+    max-width: 75%;
   }
 
   .Footer1 {
-    margin-left: 60px;
+    margin-left: 20px;
     margin-top: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+  }
+  .Propos {
+    margin-left: 40px;
+    padding-left: 0%;
   }
 
   .Footer1 h2 {
@@ -393,18 +402,6 @@ margin-top: 42px;
     color: #000000;
   }
   
-  .Hebergement {
-    margin-left: 200px;
-  }
-
-  .Assistance {
-    margin-left: 200px;
-  }
-
-  footer {
-    margin-bottom: -10px;
-  }
-
 
 
 /*Responsive Tablet*/
@@ -525,6 +522,9 @@ margin-top: 42px;
     margin-left: 0px;
     }
 
+  .Box-Activites {
+    max-width: 93%;
+  }
   
   .Activite1 {
     height: 267px ;
@@ -551,6 +551,11 @@ margin-top: 42px;
     .Footer1 {
       margin-left: 50px;
     }
+
+    .Box-Footer {
+      max-width: 93%;
+    }
+
 }
   
 
@@ -770,10 +775,10 @@ nav img {
 .Grid-Hebergements {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-start;
   align-items: center;
   width: 360px;
-  margin-left: 20px;
+  margin-left: 0px;
   margin-right: 0px;
 }
 
@@ -783,7 +788,7 @@ nav img {
 
 .Grid1 {
   margin-top: -20px;
-  margin-left: 0px;
+  margin-left: -70px;
   margin-right: 0px;
 }
 
@@ -854,6 +859,7 @@ nav img {
   margin-right: 0px;
   width: 100%;
   align-items:flex-start;
+  max-width: 100%;
 }
 
 .Hebergement,
@@ -905,83 +911,17 @@ footer {
   }
 
   .Box-Activites {
-    width: 70%;
+    width: 92%;
   }
 
-  footer {
-    max-width: 1300px;
-  }
- 
   nav {
     max-width: 1300px;
   }
 
-}
-
-@media screen and (max-width: 1400px)  {
-
-  .Box-Activites {
-    flex-wrap: wrap;
-    width: 98%;
-  }
-
-  .Box-Hebergements {
-    height: 100%;
-  }
-
-  .Grid-Hebergements {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .Grid1 {
-    height: 201px;
-    width: 230px ;
-  }
-
-
-  .Conteneur-Box {
-    align-items: flex-start;
-  }
-}
-
-@media screen and (max-width: 940px) {
-
-  .Grid-Hebergements {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .Conteneur-Box {
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .Box-Hebergements {
-    height: 100%;
-    width: 100%;
-  }
-
-  .Box-Populaires {
-    height: 100%;
-    width: 100%;
-  }
-
-  .Flex-Populaires {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  body {
+    max-width: 1400px;
+    margin: 0 auto;
   }
 
 }
 
-@media screen and (min-width: 1350px) {
-
-  .Grid1:hover,
-  .Flex1:hover,
-  .Activite1:hover{
-    scale: 1.1;
-  }
-}
