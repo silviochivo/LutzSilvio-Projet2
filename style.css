@@ -160,7 +160,7 @@ nav {
   align-content: space-around;
   margin-right: 40px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: #F2F2F2;
   height: 626px;
   border-radius: 10px;
@@ -221,7 +221,8 @@ nav {
 }
 
 .Grid1-Info {
-  width: 30%;
+  width: 80%;
+  margin-left: 0%;
 }
 
 .Image {
