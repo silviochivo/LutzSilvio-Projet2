@@ -14,6 +14,10 @@ a {
     color: #0065FC;
 }
 
+.Liens-Header {
+  margin-left: 0%;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -23,8 +27,8 @@ nav {
   }
 
   nav a {
-    margin-left: 60px;
-    padding: 27px;
+    margin-left: 30px;
+    padding: 10px;
     font-size: 16px;
   }
   
@@ -152,6 +156,10 @@ nav {
 
 .Cards-Section {
   width: 100%;
+}
+
+strong {
+  margin-left: 0%;
 }
 
 .Conteneur-Box {
@@ -401,7 +409,6 @@ h2 {
   footer {
    width : 100%;
    margin-left: 25px;
-   max-width: 1300px;
    margin-bottom: -10px;
    background-color: #F2F2F2;
   }
@@ -452,14 +459,36 @@ h2 {
     display: none;
   }
   
+/*Cards section*/
+
   .Conteneur-Box {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    width: 100%;
   }
 
+  .Conteneur-Box h2 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000000;
+    line-height: 16px;
+  }
+
+ .Box-Populaires {
+    width: 100%;
+    margin-left: 0%;
+    margin-top: 30px;
+  }
+  
+  .Box-Hebergements {
+    width: 100%;
+  }
+
+
+/*Hebergements*/
+
   .Box-Hebergements h1 {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   .Afficher-Plus {
@@ -470,25 +499,7 @@ h2 {
     margin-left: 50px;
   }
 
-  .Grid-Hebergements {
-    display: grid;
-    grid-template-columns: 246px 246px 246px ;
-    grid-template-rows: 199px 199px;
-    column-gap: 31px;
-    row-gap: 30px;
-    margin-top: 34px;
-    justify-content: center;
-  }
-
-  .Box-Populaires {
-    background-color: #F2F2F2;
-    width: 883px;
-    height: 278px;
-    border-radius: 10px;
-    flex: 1;
-    margin-top: 30px;
-    margin-left: 5px;
-  }
+/*les + populaires*/
 
   .Title-Populaires {
     margin-top: -20px;
@@ -513,79 +524,66 @@ h2 {
   .Flex-Populaires {
     display: flex;
     flex-direction: row;
-    gap: 23px;
     margin-bottom: 40px;
-    margin-left: 30px;
     margin-top: 25px;
   }
-  
+
+  .Flex-Populaires a {
+    width: 30%;
+  }
+
   .Flex1 {
-    background-color: white;
-    border-radius: 20px;
-    height: 144px;
-    width: 252px;
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .Texte-Flex1 {
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    margin-left: -5px;
-    margin-top: -15px;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
   .Image2 {
-    width: 106px;
-    height: 134px;
+    width: 35%;
+    height: 133px;
+    object-fit: cover;
     margin-left: 0%;
     margin-right: 0%;
     border-radius: 20px 0px 0px 20px;
     border: 5px solid #FFFFFF;
     padding: 0%;
-    object-fit:cover;
-    }
+  }
 
-  .Conteneur-Box h2 {
-    font-weight: 700;
-    font-size: 14px;
-    color: #000000;
-    line-height: 16px;
-    }
-
-  .Conteneur-Box {
-    margin-right:0px;
-    margin-left: 0px;
-    }
+/*Activites*/
 
   .Box-Activites {
-    max-width: 93%;
+    width: 100%;
+    height: 280px;
   }
   
-  .Activite1 {
-    height: 267px ;
-    width: 182px;
-    border-radius: 20px;
-    box-shadow: 1px 2px 2px 2px #F2F2F2;
-    align-items: center;
-    }
-
-    .Activite1 h2 {
-      margin-right: 20px;
-      margin-top: 10px;
+  .Activite1 h2 {
+    margin-right: 20px;
+    margin-top: 10px;
     }
 
   .Image3 {
-    width: 182px;
     height: 211px;
-    margin-left: 0%;
-    margin-right: 0%;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
+    width: 100%;
     }
 
-    .Footer1 {
-      margin-left: 50px;
-    }
+  .Footer1 {
+    margin-left: 50px;
+  }
 
-    .Box-Footer {
-      max-width: 93%;
-    }
+  .Box-Footer {
+    max-width: 85%;
+  }
+
 
 }
   
@@ -947,7 +945,7 @@ footer {
     margin: 0 auto;
   }
   footer {
-    max-width: 1390px;
+    max-width: 1400px;
   }
 
 }
