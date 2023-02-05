@@ -234,7 +234,7 @@ strong {
   background-color: white;
   width: 30%;
   height: auto;
-  padding: 1%;
+  padding: 0.7%;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -387,12 +387,13 @@ h2 {
 
 .Activite1 {
   width: 23%;
+  height: 460px;
   border-radius: 20px;
   box-shadow: 1px 2px 2px 2px #F2F2F2;
 }
 
 .Activite1 h2 {
-  margin-left: 8px;
+  margin-left: 20px;
   margin-top: 12px;
 }
 .Image3 {
@@ -407,7 +408,7 @@ h2 {
   /*Footer*/
 
   footer {
-   width : 100%;
+   width : 97.5%;
    margin-left: 25px;
    margin-bottom: -10px;
    background-color: #F2F2F2;
@@ -478,6 +479,7 @@ h2 {
     width: 100%;
     margin-left: 0%;
     margin-top: 30px;
+    margin-bottom: 0px;
   }
   
   .Box-Hebergements {
@@ -496,19 +498,19 @@ h2 {
     font-size: 18px;
     line-height: 21px;
     margin-bottom: 30px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
 /*les + populaires*/
 
   .Title-Populaires {
-    margin-top: -20px;
-    justify-content: space-around;
+    margin-top: 0px;
     margin-right: 0%;
     margin-left: 0%;
   }
+
   .Title-Populaires h1 {
-    margin-left: -22%;
+    margin-left: 35px;
   }
 
   h1 {
@@ -518,14 +520,14 @@ h2 {
   }
 
   .Icon-Growth {
-    margin-right: -11%;
+    margin-right: 1%;
   }
 
   .Flex-Populaires {
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
-    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-top: 5px;
   }
 
   .Flex-Populaires a {
@@ -561,29 +563,39 @@ h2 {
 
 /*Activites*/
 
+  .Activity-Section h1 {
+    margin-left: 15px;
+  }
+
   .Box-Activites {
     width: 100%;
     height: 280px;
+    margin-top: 30px;
+    margin-left: 0%;
   }
   
   .Activite1 h2 {
-    margin-right: 20px;
+    margin-right: 10px;
     margin-top: 10px;
     }
+
+  .Activite1 {
+    height: 276px;
+  }
 
   .Image3 {
     height: 211px;
     width: 100%;
     }
 
-  .Footer1 {
-    margin-left: 50px;
-  }
+  
+/*Footer*/
+
+  
 
   .Box-Footer {
     max-width: 85%;
   }
-
 
 }
   
@@ -595,6 +607,14 @@ h2 {
 
 @media screen and (max-width: 768px) {
 
+body {
+  width:100%;
+}
+
+main {
+  width:100%;
+}
+
 nav {
   display: flex;
   flex-direction: column;
@@ -602,6 +622,7 @@ nav {
   margin-right: 0px;
   margin-left: 0px;
   align-self: center;
+  width: 100%;
 }
 
 .Liens-Header {
@@ -646,6 +667,7 @@ nav img {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: -40px;
+  width: 100%;
 }
 
 .Recherche-1 {
@@ -686,6 +708,10 @@ nav img {
 
 .Champ-Saisie {
   padding: 15px 50px 12px 15px;
+}
+
+.Search-Filters {
+  width: 100%;
 }
 
 .Filtres {
@@ -735,6 +761,9 @@ nav img {
   align-items:flex-start;
 }
 
+
+/*Sections Hebergemets */
+
 .Conteneur-Box {
   display: flex;
   flex-direction: column;
@@ -760,22 +789,30 @@ nav img {
     order: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
-    height: 580px;
     width: 100%;
+    height: auto;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px;
-}
+  }
+
+/*les + populaires*/
 
 .Title-Populaires {
-  margin-left: 60px;
+  margin-left: 0px;
   margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.Title-Populaires h1 {
+  margin-left: 11%;
 }
 
 .Flex1 {
-  width: 334px;
+  width: 80%;
+  justify-content:center;
+  align-self: center;
 }
 
 .Block-Text-Flex1 {
@@ -784,13 +821,25 @@ nav img {
 }
 
 .Flex-Populaires {
+  display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 30px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 0%;
+  margin-top: 20px;
+}
+
+.Flex-Populaires a {
+  width: 100%;
+  height: 143px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
 }
 
 .Icon-Growth {
-  margin-left: -5px;
+  margin-right: 11%;
 }
 
 .Etoiles2 i {
@@ -801,29 +850,40 @@ nav img {
   margin-left: 20px;
 }
 
+/*hebergements*/
+
 .Grid-Hebergements {
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items: center;
-  width: 360px;
+  width: 100%;
   margin-left: 0px;
   margin-right: 0px;
 }
 
 .Box-Hebergements h1 {
-  margin-left: 30px;
+  margin-left: 11%;
 }
 
 .Grid1 {
-  margin-top: -20px;
-  margin-left: -70px;
+  margin-top: 0px;
+  margin-bottom: 5%;
   margin-right: 0px;
+  width: 80%;
+  box-shadow: 1px 2px 2px 2px #F2F2F2;
 }
 
-.Grid1 img {
-  width: 335px;
-  object-fit: cover;
+.Image {
+  height: 134px;
+}
+
+.Top {
+  margin-bottom: 0px;
+}
+
+.Bottom {
+  margin-top: 0px;
 }
 
 .Etoiles {
@@ -838,72 +898,84 @@ nav img {
   display: none;
 }
 
+/*Activites*/
+
 .Box-Activites{
-  justify-content:flex-start;
+  justify-content:center;
   display: flex;
   flex-direction: column;
   margin-right: 0px;
   margin-left: 0px;
-  align-items:flex-start;
-  }
+  margin-top: 300px;
+}
 
 
 .Activite1{
-  height: 190px;
-  width: 333px;
+  width: 80%;
   box-shadow: 1px 2px 2px 2px #F2F2F2;
-  margin-bottom: 24px;
-  justify-content: center;
-  margin-left: 30px;
+  margin-bottom: 5%;
 }
 
 .Activite1 h2 {
-  margin-top: 15px;
+  margin-top: 0px;
+  margin-left: 10%;
 }
 
 .Image3 {
   height: 134px;
-  width: 333px;
 }
 
 .Activity-Section h1 {
-  margin-bottom: 35px;
+  margin-bottom: -5px;
   margin-right: 0px;
-  margin-left: 30px;
+  margin-left: 11%;
+  margin-top: 0px;
 }
 
 .Activity-Section {
-  margin-top: 30px;
+  margin-bottom: 250px;
+  margin-top: 0%;
   display: flex;
   flex-direction: column;
   justify-content:flex-start;
   align-items:flex-start;
+}
+
+/*Footer*/ 
+
+footer {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: -10px;
 }
 
 .Box-Footer {
   flex-direction: column;
   height: 501px;
   column-gap: 50px;
-  margin-left: 0px;
   margin-right: 0px;
+  margin-bottom: 0px;
   width: 100%;
-  align-items:flex-start;
   max-width: 100%;
+  align-items:flex-start;
 }
 
 .Hebergement,
-.Assistance {
+.Assistance
+.Propos {
   margin-right: 0px;
 }
 
-.Propos {
-  margin-right: 0px;
+.Assistance {
+  margin-bottom: 0px;
 }
 
 
 .Footer1 {
   margin-bottom: 0px;
-  margin-left: 30px;
+  margin-left: 11%;
 }
 
 .Footer1 p {
@@ -914,12 +986,6 @@ nav img {
   line-height: 21px;
 }
 
-footer {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: -10px;
-}
 
 * {
   margin-right: 0px;
