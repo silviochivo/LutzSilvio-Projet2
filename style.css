@@ -642,7 +642,7 @@ nav a  {
 
 nav img {
   align-self: center;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .Liens-Header a:hover {
@@ -653,21 +653,23 @@ nav img {
 .Search-Bar h1 {
   line-height: normal;
   margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .Search-Bar p {
   font-size: 16px;
   margin-top: 10px;
-  margin-left: 30px;
+  margin-left: 0px;
 }
 
 .Search-Bar {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: -40px;
-  width: 100%;
+  width: 85%;
+  margin-left: 10%;
+  align-items: center;
 }
 
 .Recherche-1 {
@@ -676,8 +678,9 @@ nav img {
   align-items: center;
   justify-content:flex-start;
   margin-top: 30px;
-  margin-left: 30px;
+  margin-left: 0px;
   margin-right: 0px;
+  width: 100%;
 }
 
 .Logo-Localisation i {
@@ -697,6 +700,10 @@ nav img {
   display: inline-block
 }
 
+.Recherche-2 {
+  width: 100%;
+}
+
 .Boutton-Recherche span {
   display: none;
 }
@@ -710,32 +717,41 @@ nav img {
   padding: 15px 50px 12px 15px;
 }
 
+
+/*Section Filtres*/
+
 .Search-Filters {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
 }
+
 
 .Filtres {
   display: grid;
-  grid-template-columns:160px 160px ;
+  grid-template-columns: 50% 50% ;
   grid-template-rows:50px 50px 50px ;
-  row-gap: 20px ;
-  column-gap: 20px;
+  row-gap: 10% ;
+  column-gap: 2%;
   margin-top: -10px;
-  margin-left: 10px;
-  align-self: flex-start;
+  margin-left: 0px;
 }
 
 .Filtre-Nom {
   grid-column: 1/3 ;
   padding-top: 30px;
   align-self: end;
-  margin-left: 18px;
+  margin-left: 0px;
 }
 
 .Box-Filter {
   font-size: 13px;
   display: flex;
   align-items: center;
+  justify-content:left;
+  margin-left: 0%;
 }
 
 .Box-Filter i {
@@ -744,22 +760,16 @@ nav img {
 }
 
 .Info-Recherche { 
+  width: 100%;
   line-height: 19px;
-  margin-left: 30px;
-  margin-right: 10px;
   margin-bottom: 0px;
+  margin-left: 0%;
 }
 
 .Info-Recherche p {
-  margin-right: 0px;
   margin-left: 0px;
 }
 
-.Search-Filters {
-  display: flex;
-  flex-direction: column;
-  align-items:flex-start;
-}
 
 
 /*Sections Hebergemets */
@@ -842,6 +852,12 @@ nav img {
   margin-right: 11%;
 }
 
+.Texte-Flex1 h2,
+.Texte-Flex1 h3 {
+  margin-left: 15px;
+  width: 90%;
+}
+
 .Etoiles2 i {
   margin-left: -5px;
 }
@@ -874,6 +890,15 @@ nav img {
   box-shadow: 1px 2px 2px 2px #F2F2F2;
 }
 
+.Grid1-Info h2,
+.Grid1-Info h3 {
+  margin-left: 20px;
+}
+
+.Grid1-Info h2 {
+  margin-top: 5px;
+}
+
 .Image {
   height: 134px;
 }
@@ -887,7 +912,7 @@ nav img {
 }
 
 .Etoiles {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .Etoiles i {
@@ -904,21 +929,23 @@ nav img {
   justify-content:center;
   display: flex;
   flex-direction: column;
+  height: auto;
   margin-right: 0px;
   margin-left: 0px;
-  margin-top: 300px;
+  margin-top: 30px;
 }
 
 
 .Activite1{
   width: 80%;
+  height: 180px;
   box-shadow: 1px 2px 2px 2px #F2F2F2;
   margin-bottom: 5%;
 }
 
 .Activite1 h2 {
-  margin-top: 0px;
-  margin-left: 10%;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .Image3 {
@@ -933,11 +960,11 @@ nav img {
 }
 
 .Activity-Section {
-  margin-bottom: 250px;
+  margin-bottom: 10px;
   margin-top: 0%;
   display: flex;
   flex-direction: column;
-  justify-content:flex-start;
+  justify-content:center;
   align-items:flex-start;
 }
 
@@ -994,7 +1021,6 @@ footer {
 }
 
 }
-
 
 
 /*Responsive All screens*/
