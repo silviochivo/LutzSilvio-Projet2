@@ -452,6 +452,21 @@ h2 {
     margin-left: 0px;
   }
 
+  .Filtres {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .Search-Filters {
+    width: 100%;
+  }
+
+  .Box-Filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   nav {
     margin-left: 0px;
   }
@@ -1055,3 +1070,12 @@ footer {
 
 }
 
+/*
+@media screen and (max-width: 840px) {
+
+  .Box-Filter {
+    font-size: 15px;
+  }
+}
+
+*/
