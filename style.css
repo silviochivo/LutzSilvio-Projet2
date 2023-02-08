@@ -285,6 +285,10 @@ h2 {
   margin-left: -10px;
 }
 
+.fa-gris {
+  color: #f2f2f2 ;
+}
+
 
 
 /*Card + populaires*/
@@ -447,6 +451,21 @@ h2 {
 
 @media screen and (max-width: 992px) {
   
+
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+  }
+
+  .Liens-Header {
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    justify-content:space-around;
+
+  }
+
   .Search-Bar,
   .Search-Filters {
     margin-left: 0px;
@@ -643,12 +662,14 @@ nav {
 .Liens-Header {
   display:flex;
   flex-direction: row;
-  gap: 55px;
   margin-bottom: 0px;
   margin-top: 30px;
   align-self:center;
 }
 
+.Liens-Header a {
+  width: 50%;
+}
 
 nav a  {
   margin-left: 0px;
@@ -829,7 +850,7 @@ nav img {
 .Title-Populaires {
   margin-left: 0px;
   margin-top: 0px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .Title-Populaires h1 {
@@ -966,7 +987,7 @@ nav img {
 
 .Activite1{
   width: 80%;
-  height: 180px;
+  height: auto;
   box-shadow: 1px 2px 2px 2px #F2F2F2;
   margin-bottom: 30px;
 }
@@ -1055,7 +1076,6 @@ footer {
 
 @media all and (min-width: 1400px) {
 
-
   nav {
     max-width: 1400px;
   }
@@ -1070,12 +1090,14 @@ footer {
 
 }
 
-/*
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 380px) {
 
   .Box-Filter {
-    font-size: 15px;
+    padding: 1%;
   }
-}
 
-*/
+  .Search-Filters {
+    width: 90%;
+  }
+  
+}
