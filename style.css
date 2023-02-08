@@ -857,9 +857,18 @@ nav img {
   margin-left: 11%;
 }
 
+.Objective4 {
+  object-position: 50% 30% ;
+}
+
+.Objective1,
+.Objective3 {
+  object-position: 50% 60% ;
+}
+
 .Image2 {
   width: 35%;
-  height: 134px;
+  height: 174px;
 }
 
 .Texte-Flex1 {
@@ -871,12 +880,14 @@ nav img {
   height: auto;
   justify-content:center;
   align-self: center;
+  margin-bottom: 30px;
 }
 
 .Block-Text-Flex1 {
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 .Flex-Populaires {
@@ -885,16 +896,16 @@ nav img {
   align-items: center;
   justify-content: center;
   width: 100%;
-  margin-bottom: 0%;
+  margin-bottom: 0px;
   margin-top: 20px;
 }
 
 .Flex-Populaires a {
   width: 100%;
-  height: 143px;
+  height: 164px;
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .Icon-Growth {
@@ -933,7 +944,7 @@ nav img {
 
 .Grid1 {
   margin-top: 0px;
-  margin-bottom: 5%;
+  margin-bottom: 30px;
   margin-right: 0px;
   width: 80%;
   box-shadow: 1px 2px 2px 2px #F2F2F2;
@@ -949,7 +960,7 @@ nav img {
 }
 
 .Image {
-  height: 134px;
+  height: 174px;
 }
 
 .Top {
@@ -958,6 +969,26 @@ nav img {
 
 .Bottom {
   margin-top: 0px;
+}
+
+.Position1 {
+  object-position: 50% 25%;
+}
+
+.Position2 {
+  object-position: 50% 70%;
+}
+
+.Position3 {
+  object-position: 50% 85%;
+}
+
+.Position4 {
+  object-position: 50% 70%;
+}
+
+.Position6 {
+  object-position: 50% 80%;
 }
 
 .Etoiles {
@@ -998,7 +1029,7 @@ nav img {
 }
 
 .Image3 {
-  height: 134px;
+  height: 174px;
 }
 
 .Activity-Section h1 {
@@ -1090,6 +1121,8 @@ footer {
 
 }
 
+/*Responsive phone ajustements*/
+
 @media screen and (max-width: 380px) {
 
   .Box-Filter {
@@ -1101,3 +1134,25 @@ footer {
   }
   
 }
+
+@media screen and (max-width: 500px) {
+
+  .Image,
+  .Image2,
+  .Image3 {
+    height: 134px;
+  }
+
+  .Flex-Populaires a {
+    margin-bottom: 30px;
+    height: 134px;
+  }
+
+  .Title-Populaires {
+    margin-bottom: 0px;
+  }
+}
+
+
+
+  
