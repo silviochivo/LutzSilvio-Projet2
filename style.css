@@ -15,7 +15,8 @@ a {
 }
 
 .Liens-Header {
-  margin-left: 0%;
+  margin-left: 0px;
+  margin-right: -20px;
 }
 
 nav {
@@ -23,12 +24,12 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 25px;
   }
 
   nav a {
     margin-left: 30px;
-    padding: 10px;
+    padding: 22px;
     font-size: 16px;
   }
   
@@ -455,6 +456,11 @@ h2 {
   nav {
     display: flex;
     justify-content: space-between;
+    margin-left: 0px;
+  }
+
+  .Liens-Header {
+    margin-left: 0%;
   }
 
   .Search-Bar,
@@ -463,7 +469,7 @@ h2 {
   }
 
   .Filtres {
-    width: 90%;
+    width: 95%;
     font-size: 15px;
   }
 
@@ -477,9 +483,6 @@ h2 {
     justify-content: center;
   }
 
-  nav {
-    margin-left: 0px;
-  }
 
   .Recherche-2 i {
     display: none;
@@ -657,8 +660,6 @@ nav {
   margin-top: 30px;
   align-self:center;
   width: 100%;
-  margin-left: 0%;
-  justify-content:space-around;
 }
 
 .Liens-Header a {
@@ -1092,7 +1093,6 @@ footer {
   margin-right: 0px;
   padding-right: 0px;
   margin-left: 0px;
-  margin-bottom: 0%;
 }
 
 }
