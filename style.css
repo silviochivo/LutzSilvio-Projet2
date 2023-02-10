@@ -454,16 +454,7 @@ h2 {
 
   nav {
     display: flex;
-    justify-content: center;
-    width: 90%;
-  }
-
-  .Liens-Header {
-    width: 100%;
-    margin-left: 0%;
-    display: flex;
-    justify-content:space-around;
-
+    justify-content: space-between;
   }
 
   .Search-Bar,
@@ -665,6 +656,9 @@ nav {
   margin-bottom: 0px;
   margin-top: 30px;
   align-self:center;
+  width: 100%;
+  margin-left: 0%;
+  justify-content:space-around;
 }
 
 .Liens-Header a {
@@ -1098,6 +1092,7 @@ footer {
   margin-right: 0px;
   padding-right: 0px;
   margin-left: 0px;
+  margin-bottom: 0%;
 }
 
 }
